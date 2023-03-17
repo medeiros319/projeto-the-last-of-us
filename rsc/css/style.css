@@ -107,6 +107,19 @@ main:after{
     display: block;
 }
 
+/* ------------------texto----------------- */
+
+.informacoes .descricao{
+    display: none;
+    object-fit: cover;
+    animation: mudarImagem 1;
+}
+
+.informacoes .descricao.tela{
+    display: block;
+}
+
+
 @keyframes mudarImagem{
     from{
         opacity: 0.85;

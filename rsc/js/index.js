@@ -2,6 +2,7 @@
 
 const botoesCarrossel = document.querySelectorAll('.botao');
 const imagens = document.querySelectorAll('.imagem');
+const textos = document.querySelectorAll('.descricao')
 
 // indentificar o clique do botão
 
@@ -23,7 +24,10 @@ botoesCarrossel.forEach((botao, indice) => {
 
         //--------------------------------------Firula minha :3---------------------------------------------//
 
-        const textoAtivo = document.querySelector('');
+        const textoAtivo = document.querySelector('.tela');
+        textoAtivo.classList.remove('tela');
+
+        textos[indice].classList.add('tela')
 
     })
 })
